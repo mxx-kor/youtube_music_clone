@@ -5,7 +5,19 @@ nav {
   margin: 10px 5px;
   padding: 8px;
 }
-
+.nav-md-lists a:link {
+  color: #fff;
+  text-decoration-line: none;
+}
+.nav-md-lists a:visited {
+  color: #aaa;
+}
+.nav-md-lists a:hover {
+  color: #fff;
+}
+.nav-md-lists a:active {
+  color: #fff;
+}
 .nav-md-lists,
 .nav-end-lists {
   font-size: 20px;

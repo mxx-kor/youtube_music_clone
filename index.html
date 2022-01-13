@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav class="nav-bar">
-      <a class="nav-logo">
+      <a class="nav-logo" href="index.html">
         <img
           src="https://music.youtube.com/img/on_platform_logo_dark.svg"
           alt="sm-logo"
@@ -17,10 +17,12 @@
       </a>
       <div>
         <ul class="nav-md-lists">
-          <li>홈</li>
-          <li>둘러보기</li>
-          <li>보관함</li>
-          <li><i class="fas fa-search"></i> <span>검색</span></li>
+          <li><a href="index.html">홈</a></li>
+          <li><a href="#">둘러보기</a></li>
+          <li><a href="#">보관함</a></li>
+          <li>
+            <a href="#"><i class="fas fa-search"></i> <span>검색</span></a>
+          </li>
         </ul>
       </div>
       <div>
@@ -47,39 +49,58 @@
           <img
             src="https://lh3.googleusercontent.com/GjUl0h_qcK1hlTh_B5YnulMGAXHt2cO00HAxBxIyZ7gasXT75GJLkeogEWb04_0PXE_MSfl0dCoS2qeQhw=w544-h544-l90-rj"
           />
-          <div><a>Dawn FM (Alternate World)</a></div>
-          <div><i class="fas fa-euro-sign"></i> 앨범 • <a>The Weeknd</a></div>
+          <div class="album__name">
+            <a href="#">Dawn FM (Alternate World)</a>
+          </div>
+          <div class="album__singer">
+            <i class="fas fa-euro-sign fa-xs"></i> 앨범 •
+            <a href="#">The Weeknd</a>
+          </div>
         </div>
         <div class="album">
           <img
             src="https://lh3.googleusercontent.com/MDXlqVgoyfLpysLHmQTBGxwmSNdmr6jxstlsDBXC8roWYItV6UBJVkgDo23AaeFr8tkuRlAo7zj2F3g=w544-h544-l90-rj"
           />
-          <div><a>Presenting The Weeknd</a></div>
-          <div>
-            <a
-              >The Weeknd (위켄드)님,<br />
-              Ariana Grande(아리아나 그란...</a
-            >
+          <div class="album__name"><a href="#">Presenting The Weeknd</a></div>
+          <div class="album__singer">
+            <a href="#">The Weeknd (위켄드)님</a>,<br />
+            <a href="#"> Ariana Grande(아리아나... </a>
           </div>
         </div>
         <div class="music-video">
           <img src="https://img.youtube.com/vi/VafTMsrnSTU/sddefault.jpg" />
-          <div><a>Sacrifice (Official Music Video)</a></div>
-          <div><a>The Weeknd (위켄드)</a> • 조회수 1352만회</div>
+          <div class="album__name">
+            <a href="#">Sacrifice (Official Music Video)</a>
+          </div>
+          <div class="album__singer">
+            <a href="#">The Weeknd (위켄드)</a> • 조회수 1352만회
+          </div>
         </div>
         <div class="music-video">
           <img src="https://img.youtube.com/vi/rhTl_OyehF8/sddefault.jpg" />
-          <div><a>Take My Breath (Official Music Video)</a></div>
-          <div><a>The Weeknd (위켄드)</a> • 조회수 8946만회</div>
+          <div class="album__name">
+            <a href="#">Take My Breath (Official Music Video)</a>
+          </div>
+          <div class="album__singer">
+            <a href="#">The Weeknd (위켄드)</a> • 조회수 8946만회
+          </div>
         </div>
         <div class="album">
           <img
             src="https://lh3.googleusercontent.com/4Yf98baLQr4gME5LQSj-I0BmRA0_A9BAat92XKoqKyvxweOyZyurox2wteup1n-k1XRTUWaGX0syYSiZ=w544-h544-l90-rj"
           />
-          <div><a>Pop Hits</a></div>
-          <div>the weekend 외 다수</div>
+          <div class="album__name">
+            <a href="#">Pop Hits</a>
+          </div>
+          <div class="album__singer">
+            <a href="#">Ariana Grande(아리아나 그<br />란데)님</a>,
+            <a href="#">Justin Bieber(저...</a>
+          </div>
         </div>
       </ul>
+      <div class="arrow">
+        <a href="#"><i class="fas fa-chevron-right fa-sm"></i></a>
+      </div>
     </main>
     <script src="main.js"></script>
     <script
