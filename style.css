@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "nav.css";
+@import "main.css";
+
+body {
+  background-color: #030303;
+  color: #fff;
+}
