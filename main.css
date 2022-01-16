@@ -361,3 +361,9 @@ img:hover {
 .arrow-4 a:active {
   color: #000;
 }
+
+.album__recommend img {
+  width: 180px;
+  height: 180px;
+  border-radius: 3px;
+}
